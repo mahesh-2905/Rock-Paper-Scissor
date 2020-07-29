@@ -1,0 +1,94 @@
+*{
+    margin:0 auto;
+    padding:0px;
+}
+body{
+    background-color: rgb(9, 1, 19);
+    color: white;
+}
+header{
+    background-color: rgba(232, 230, 225);
+    padding: 10px;
+    color:black
+}
+header > h1{
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header > h2{
+    text-align:center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    padding:10px;
+}
+.score-board{
+    border-radius: 5px;
+    margin:20px auto;
+    border-style: solid;
+    border-color:white;
+    width:150px;
+    margin-top:10px;
+    position:relative;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+   
+}
+.badge{
+    font-size:10px;
+    background-color: rgba(242, 75, 75);
+    width:43px;
+    padding:2px 2px;
+    text-align:center;
+}
+#User-badge{
+    position: absolute;
+    text-align:center;
+    left: -25px;
+    top:16px;
+}
+#Computer-badge{
+    position: absolute;
+    text-align:center;
+    right:-25px;
+    top:16px;
+}
+.result > p{
+     text-align: center;
+     font-size:40px;
+     font-family: URW Chancery L, cursive;
+}
+.choices{
+    text-align: center;
+    margin-top:10px;
+    padding-bottom: 0px;
+}
+.choice{
+    display: inline-block; 
+    border-radius:20px;
+    margin-left:20px;
+    border-style:solid;
+    border-color:white;
+    padding-bottom: 0px;
+}
+
+div > p{
+    text-align:center;
+    margin-top:20px;
+    font-size:20px;
+}
+.greenglow{
+    border-style:solid;
+    border-color:green;
+    box-shadow:0 0 6px 6px rgba(122, 243, 52, 0.5) ;
+}
+.redglow{
+    border-style:solid;
+    border-color:red;
+    box-shadow:0 0 6px 6px rgba(218, 23, 23, 0.5) ;
+}
+.greyglow{
+    border-style:solid;
+    border-color:grey;
+    box-shadow:0 0 6px 6px rgba(110, 122, 102, 0.5) ;
+}
